@@ -1,0 +1,2 @@
+helm install --name kube-state-metrics stable/kube-state-metrics
+helm install --name elastic-metricbeat stable/metricbeat -f my-elastic-metricbeat.yaml # metricbeat dashboard 
